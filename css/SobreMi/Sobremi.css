@@ -1,40 +1,39 @@
-
-.about {
+.about{
     overflow: hidden;
-  }
+}
   
-  .about img {
+.about img{
     max-width: 600px;
-  }
+}
   
-  .about .text {
+.about .text{
     margin-top: 1rem;
-  }
+}
   
-  .skills {
+.skills{
     margin: 1.5rem 0 2.5rem 0;
-  }
+}
   
-  .skill {
+.skill{
     margin: 1rem 0;
-  }
+}
   
-  .skill-title {
+.skill-title{
     color: #555;
     font-weight: 600;
     margin-bottom: 0.3rem;
-  }
+}
   
-  .skill-bar {
+.skill-bar{
     width: 70%;
     height: 8px;
     border-radius: 4px;
     background-color: #ece6fa;
     position: relative;
     overflow: hidden;
-  }
+}
   
-  .skill-progress {
+.skill-progress{
     position: absolute;
     height: 100%;
     width: 0%;
@@ -42,13 +41,13 @@
     left: 0;
     background-color: var(--main-color);
     transition: 1s;
-  }
+}
   
-  .about .column-1 {
+.about .column-1{
     position: relative;
-  }
+}
   
-  .about .column-1:before {
+.about .column-1:before{
     content: "About";
     position: absolute;
     font-size: 8rem;
@@ -58,11 +57,11 @@
     top: 20px;
     left: 0;
     line-height: 0;
-  }
+}
   
-  .about .points {
+.about .points{
     width: 300px;
     top: 65%;
     left: 80%;
     opacity: 0.1;
-  }
+}
